@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Header from './components/Header.jsx'
+import HeroSection from "./components/HeroSection.jsx"
 
 const App = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div className="bg-[#111827] min-h-screen">
       <Header />
+      <HeroSection />
     </div>
   )
 }

@@ -5,13 +5,10 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false); //setou dois valores pra falso
 
     const menuItems = [ //uma lista de dict
-        {name: 'Sobre mim', href: '#sobre'},
         {name: 'Formação', href: '#formacao'},
-        {name: 'Skill', href: '#skills'},
-        {name: 'Certificações', href: '#certificacoes'},
+        {name: 'Skills', href: '#skills'},
         {name: 'Projetos', href: '#projetos'},
         {name: 'Experiência', href: '#experiencia'},
-        {name: 'Contato', href: '#contato'},
     ]
 
     const scrollToSection = (href) => { //percorre a lista --> parâmetro
@@ -39,7 +36,7 @@ const Header = () => {
                         </li>
                     ))}
                 </ul>
-                <button onClick={() => scrollToSection('#contato')} className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg text-base font-semibold transition-all">
+                <button onClick={() => scrollToSection('#contato')} className="bg-primary hover-bg-primary text-white px-6 py-2.5 rounded-lg text-base font-semibold transition-all">
                     Entre em contato
                 </button>
             </nav>
@@ -60,15 +57,19 @@ const Header = () => {
                 <X size={32}/>
             </button>
             <ul className="flex flex-col gap-8">
-                {menuItems.map((item) =>(
+                {menuItems.map((item) => (
                     <li key={item.name}>
-                        <button onClick={() => scrollToSection(item.href)} className="text-white text-xl font-semibold hover:text-primary">
-
+                        <button onClick={() => scrollToSection(item.href)} className="text-gray-300 text-xl font-semibold hover:text-white transition-colors">
+                            {item.name}
                         </button>
                     </li>
                 ))}
+                <li className="pt-6">
+                    <button onClick={() => scrollToSection('#contact')} className="w-full bg-primary hover-bg-primary text-white py-4 rounded-xl text-lg font-bold">
+                        Entre em contato
+                    </button>
+                </li>
             </ul>
-
         </div>
     </header>
   )
