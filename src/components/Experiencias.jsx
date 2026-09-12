@@ -52,7 +52,7 @@ const experiencias = [
   {
     empresa: "Kadoo Education",
     cargo: "Head de Marketing e Comunicação",
-    periodo: "[preencher]",
+    periodo: "Jan/2026 - Abr/2026",
     destaque: false,
     tipo: "Comunicação",
     icon: Megaphone,
@@ -69,7 +69,7 @@ const experiencias = [
   {
     empresa: "LUMINA",
     cargo: "Diretora de Marketing e Comunicação",
-    periodo: "[preencher]",
+    periodo: "Nov/2025 - Atual",
     destaque: false,
     tipo: "Organização",
     icon: GraduationCap,
