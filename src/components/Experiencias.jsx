@@ -17,13 +17,12 @@ const experiencias = [
     tipo: "Tecnologia",
     icon: BriefcaseBusiness,
     descricao:
-      "Atuação no suporte e manutenção de sistemas, com foco em TOTVS RM, SQL Server e demandas de usuários em ambiente de homologação.",
+      "Atuação no suporte e manutenção de sistemas, com foco em TOTVS RM, SQL Server e demandas de usuários.",
     atividades: [
       "Suporte e manutenção de sistemas utilizando TOTVS RM",
       "Consultas e análise de dados utilizando SQL Server",
       "Desenvolvimento e manutenção de consultas e relatórios",
       "Apoio aos usuários em demandas relacionadas aos sistemas",
-      "Atuação em ambiente de homologação",
       "Análise e resolução de problemas relacionados aos sistemas",
       "Aprendizado e atuação com os módulos e estrutura do TOTVS RM",
     ],
