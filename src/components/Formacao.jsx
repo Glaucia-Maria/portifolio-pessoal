@@ -23,10 +23,10 @@ const segments = Array.from({ length: 8 }, (_, index) => index < 6);
 
 const Formacao = () => {
   return (
-    <main id="formacao" className="relative flex min-h-[calc(100vh-120px)] items-center justify-center overflow-hidden bg-[#111827] px-4 pb-10 pt-6 sm:px-6 lg:px-8" data-aos="fade-up">
+    <main id="formacao" className="relative scroll-mt-24 flex min-h-[60vh] items-center justify-center overflow-hidden bg-[#111827] px-4 pb-8 pt-4 sm:px-6 lg:px-8" data-aos="fade-up">
 
       {/* Efeito de luz no fundo */}
-      <div className="pointer-events-none absolute -left-24 top-24 h-72 w-72 rounded-full bg-[#ef8b7b]/30 blur-3xl" />
+      <div className="pointer-events-none absolute -left-12 top-24 h-72 w-72 rounded-full bg-[#ef8b7b]/30 blur-3xl" />
 
       <div className="mx-auto w-full max-w-[1200px]">
 

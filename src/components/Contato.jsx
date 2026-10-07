@@ -25,7 +25,7 @@ const Contato = () => {
   return (
     <footer
       id="contato"
-      className="relative bg-[#111827] py-16 sm:py-20"
+      className="relative overflow-hidden bg-[#111827] py-10 sm:py-14"
       data-aos="fade-up"
     >
       <div className="mx-auto max-w-6xl px-5 sm:px-8 md:px-12 lg:px-8">

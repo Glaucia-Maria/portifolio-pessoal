@@ -14,7 +14,9 @@
 
   html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
   }
 
   body {
@@ -22,8 +24,14 @@
     min-height: 100vh;
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
     background: #111827;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
   }
 
   button {

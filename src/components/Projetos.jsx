@@ -17,10 +17,10 @@ const Projetos = () => {
   return (
     <section
       id="projetos"
-      className="relative bg-[#111827] py-16 sm:py-20"
+      className="relative overflow-hidden bg-[#111827] py-10 sm:py-14 scroll-mt-50"
       data-aos="fade-up"
     >
-      <div className="absolute -left-20 top-10 h-72 w-72 rounded-full bg-[#ef8b7b]/15 blur-3xl" />
+      <div className="absolute -left-10 top-10 h-72 w-72 rounded-full bg-[#ef8b7b]/15 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8 md:px-12 lg:px-8">
         <div className="mb-10 text-center">

@@ -3,8 +3,8 @@ import heroImg from "../assets/glau-boneca.png";
 
 const HeroSection = () => {
     return (
-        <section className="relative w-full overflow-hidden bg-[#111827] py-12 sm:py-16 lg:py-20" data-aos="zoom-in-up">
-            <div className="pointer-events-none absolute -left-20 top-0 h-72 w-72 rounded-full bg-gradient-to-br from-[#fc8979] to-[#FFAF9E] opacity-30 blur-3xl" />
+        <section className="relative w-full overflow-hidden bg-[#111827] py-8 sm:py-12 lg:py-16" data-aos="zoom-in-up">
+            <div className="pointer-events-none absolute -left-10 top-0 h-72 w-72 rounded-full bg-gradient-to-br from-[#fc8979] to-[#FFAF9E] opacity-30 blur-3xl" />
             <div className="pointer-events-none absolute right-10 top-14 h-32 w-32 rounded-full border border-white/10 bg-white/5 blur-2xl" />
             <div className="pointer-events-none absolute bottom-10 left-1/3 h-24 w-24 rounded-full border border-[#ef8b7b]/30 bg-[#ef8b7b]/10 blur-xl" />
 
