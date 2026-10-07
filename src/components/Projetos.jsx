@@ -1,6 +1,7 @@
 import React from "react";
 import { ExternalLink, Sparkles } from "lucide-react";
 import pwaImage from "../assets/pwa.png";
+import aprovahubImage from "../assets/aprovahub.png";
 
 const projetos = [
   {
@@ -11,6 +12,14 @@ const projetos = [
     image: pwaImage,
     link: "https://glaucia-maria.github.io/pwa/",
   },
+
+  {
+  title: "AprovaHub",
+  description: "Plataforma de gestão de estudos para concursos e processos seletivos, desenvolvida para auxiliar na organização da rotina, acompanhamento do progresso e aumento da produtividade, reunindo disciplinas, conteúdos e questões em um único ambiente. Observação: Projeto desenvolvido a partir de uma necessidade que identifiquei na minha própria rotina de estudos: organizar disciplinas, conteúdos, questões e progresso em um só lugar. A plataforma ainda está em desenvolvimento e, por enquanto, está disponível apenas para testes. Acesso: teste@gmail.com | Senha: teste123.",
+  technologies: ["React", "Tailwind CSS", "Supabase", "Vite", "PostgreSQL"],
+  image: aprovahubImage,
+  link: "https://glaucia-maria.github.io/AprovaHub/",
+  }
 ];
 
 const Projetos = () => {
